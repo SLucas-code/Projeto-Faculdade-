@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    margin: 0;
+    padding: 0;
+    background-image: url('/Imagens/Tela\ de\ fundo\ Cadastro.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width: 850px;
+  }
+
+  .ImagemFundo {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  form#cadastroForm {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 12px;
+    color: #444;
+  }
+  
+  label input,
+  label select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  label select {
+    background-color: #fff;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+   #botão{
+    flex: 1;
+    padding: 10px;
+    background-color: #ffb000;
+    border: none;
+    border-radius: 8px;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+  }
+  
+  #sucesso_cadastro {
+  background-color: #ffb000;
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: black;
+  display: flex;
+  justify-content: space-between; 
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+
+
+
+
+  

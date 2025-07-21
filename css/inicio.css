@@ -1,0 +1,9 @@
+body{
+  background-color: #1f0506;
+  min-width: 850px;
+}
+#main{
+  width: 100%;
+  height: auto;
+  display: block;
+}

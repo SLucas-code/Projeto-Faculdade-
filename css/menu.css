@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  background-color: #ffb000;
+  box-shadow: 10px 10px 10px rgba(172, 172, 172, 0);
+}
+.top-header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-header {
+  background-color: #1f0506;
+  padding: 20px 4%;
+}
+.top-header .logotipo img {
+  max-width: 240px;
+}
+.top-header .midia-social button {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #ffb000;
+  cursor: pointer;
+  color: #ffffff;
+}
+.bottom-header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+.bottom-header nav ul li a {
+  color: #100202;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  transition: 0.2s;
+}
+.bottom-header nav ul li a:hover {
+  background-color: #f5f2d0;
+  color: #000000;
+  box-shadow: inset 0 0 8px #0000007a;
+}
+.drop-hover{
+  position: relative;
+}
+.drop-hover .drop{
+  position: absolute;
+  background-color: #ffb000;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: .5s;
+}
+.drop-hover .drop a{
+  padding: 20px;
+}
+.drop-hover:hover .drop{
+  height: 125px;
+}

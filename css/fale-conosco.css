@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+body{
+  min-width: 850px;
+}
+main {
+  display: flexbox;
+    font-family: Arial, Helvetica,;
+    background-color: #1f0506;
+    margin: 0;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(172, 172, 172, 0.795);
+  }
+ 
+  
+  .container {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .header {
+    background-color: #ffb000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 10px 10px 10px rgba(172, 172, 172, 0.795);
+  }
+  
+  
+  .content {
+    p{font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+    padding: 20px;
+    text-align: center;
+  }
+  
+  label {
+    margin-top: 10px;
+    
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+  form {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    
+    select{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    }
+  
+  }
+  html{
+    background-color: #100202;
+  }
+  #botão{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #ffb000;
+  }

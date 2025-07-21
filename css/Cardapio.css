@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+body{
+    background-color: #1f0506;
+    min-width: 850px;
+}
+main{
+    background-color: #1f0506;
+    div{
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: 18px;
+        color: #ffffff;
+        font-family: "Comic Neue", cursive;
+        font-weight: 300;
+        font-style: normal;
+    
+    }
+    h1{
+        text-align: center;
+    background-color: #ffb000;
+    box-shadow: 10px 10px 15px rgba(255, 239, 20, 0);
+    text-shadow: 2px 2px 3px rgba(228, 228, 228, 0.795);
+    }
+    h2{
+        text-align: center;
+        background-color: #ffb000;
+        box-shadow: 10px 10px 15px rgba(172, 172, 172, 0);
+        text-shadow: 2px 2px 3px rgba(172, 172, 172, 0.795);
+    }
+    img{
+        width: 300px;
+    }
+}
+
+footer{
+
+    
+    p {
+        display: flex;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .footer-icone{
+
+        margin: 10px;
+        
+        
+    }
+
+    .tipo{
+
+        display: flex;
+        justify-content: center;
+        margin-top: -100px;
+        background-color: #f5f2d0;
+        
+    }
+
+    .logo > ul > li {
+        
+        display: flex;
+        list-style-type: none;
+        justify-content: right;
+        margin-top: -9rem;
+    }
+
+    li{
+        margin-bottom: -30px;
+    }
+
+}
+
+
+
